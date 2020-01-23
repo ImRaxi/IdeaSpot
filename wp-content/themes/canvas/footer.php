@@ -84,17 +84,7 @@
 	============================================= -->
 	<div id="gotoTop" class="icon-angle-up"></div>
 
-	<!-- External JavaScripts
-	============================================= -->
-	<script src="wp-content\themes\canvas\js\jquery.js"></script>
-	<script src="wp-content\themes\canvas\js\plugins.js"></script>
-
-	<!-- Google Map JavaScripts
-	============================================= -->
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="wp-content\themes\canvas\js\functions.js"></script>
+	<?php wp_footer(); ?>
 
 </body>
 </html>

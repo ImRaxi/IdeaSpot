@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title><?php bloginfo('title'); ?></title>
+
+	<?php wp_head(); ?>
+
+</head>
+
+<body class="stretched side-push-panel">
+
+
 <header id="header" class="full-header transparent-header dark static-sticky" data-sticky-class="not-dark" data-sticky-offset="full" data-sticky-offset-negative="100">
 
 			<div id="header-wrap">
@@ -9,8 +27,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.php" class="standard-logo" data-dark-logo="wp-content/themes/canvas/images/logo-light.png"><img src="wp-content/themes/canvas/images/logo-dark.png" alt="Canvas Logo"></a>
-						<a href="index.php" class="retina-logo" data-dark-logo="wp-content/themes/canvas/images/canvasone-dark@2x.png"><img src="wp-content/themes/canvas/images/canvasone@2x.png" alt="Canvas Logo"></a>
+						<a href="index.php" class="standard-logo" data-dark-logo="<?php bloginfo('template_directory'); ?>/images/logo-light.png"><img src="<?php bloginfo('template_directory'); ?>/images/logo-dark.png" alt="Canvas Logo"></a>
+						<a href="index.php" class="retina-logo" data-dark-logo="<?php bloginfo('template_directory'); ?>/images/canvasone-dark@2x.png"><img src="<?php bloginfo('template_directory'); ?>/images/canvasone@2x.png" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
