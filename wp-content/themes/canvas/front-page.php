@@ -105,7 +105,7 @@
 
 					</div>
                     <p class="bottommargin" style="font-size: 16px;"><a href="#" data-scrollto="#section-services" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" class="more-link">
-                    <?php echo $aboutus['seemore']; ?><i class="icon-angle-right"></i></a></p>
+                    <?php echo $aboutus['more']; ?><i class="icon-angle-right"></i></a></p>
 
 				</div>
 
