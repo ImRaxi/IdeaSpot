@@ -6,6 +6,11 @@
 	<meta name="author" content="SemiColonWeb" />
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="wp-content\themes\canvas\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cambay&display=swap" rel="stylesheet">
 
 	<title><?php bloginfo('title'); ?></title>
 
@@ -27,8 +32,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.php" class="standard-logo" data-dark-logo="<?php bloginfo('template_directory'); ?>/images/logo-light.png"><img src="<?php bloginfo('template_directory'); ?>/images/logo-dark.png" alt="Canvas Logo"></a>
-						<a href="index.php" class="retina-logo" data-dark-logo="<?php bloginfo('template_directory'); ?>/images/canvasone-dark@2x.png"><img src="<?php bloginfo('template_directory'); ?>/images/canvasone@2x.png" alt="Canvas Logo"></a>
+						<a href="index.php" class="standard-logo" data-dark-logo="<?php bloginfo('template_directory'); ?>/images/logo-light.png"><img src="<?php bloginfo('template_directory'); ?>/images/logo-light.png" alt="Canvas Logo"></a>
+						<a href="index.php" class="retina-logo" data-dark-logo="<?php bloginfo('template_directory'); ?>/images/canvasone-dark@2x.png"><img src="<?php bloginfo('template_directory'); ?>/images/canvasone-dark@2x.png" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
